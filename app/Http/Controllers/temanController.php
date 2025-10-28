@@ -25,6 +25,7 @@ class temanController extends Controller
                 'wa'=>'0866554433',
             ],
         ];
+        dd($dt);
         return view('teman',compact('dt') ) ;
     }
 }
